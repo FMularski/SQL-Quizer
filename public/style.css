@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+body
+{
+    background-image: url('img/bg.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
+
+header
+{
+    text-align: center;
+}
+
+.navhover:hover
+{
+    transform: scale3d(1.3, 1.3, 1.3);
+}
+
+.dbcolor
+{
+    color: rgb(84, 54, 241);
+}
+
+header > p > img#wheels
+{
+    width: 12%;
+}
+
+main
+{
+    width: 60%;
+    margin-left: 20%;
+}
+
+div#intro
+{
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+div#intro > h1
+{
+    padding-top: 3%;
+    padding-bottom: 2%;
+    font-weight: 600;
+}
+
+div#intro > p
+{
+    padding-bottom: 7%;
+}
+
+#container
+{
+    background-color: rgba(124, 123, 123, 0.4);
+    border-radius: 25px;
+}
+
+footer
+{
+    left: 20%;
+    bottom: 0%;
+    right: 0;
+    padding: 1rem;
+    text-align: center;
+    width: 60%;
+    font-weight: 600;
+
+    position: fixed;
+
+    height: 5%;
+    background: lightseagreen;
+    border-radius: 25px;
+}
