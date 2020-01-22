@@ -5141,7 +5141,7 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #007bff;
+  background-color: rgb(84, 54, 241);
 }
 
 a.badge-primary:hover, a.badge-primary:focus {
@@ -5262,7 +5262,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #e9ecef;
+  background-color: rgba(0, 0, 0, 0);
   border-radius: 0.3rem;
 }
 
@@ -5307,9 +5307,9 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .alert-primary {
-  color: #004085;
-  background-color: #cce5ff;
-  border-color: #b8daff;
+  color: white;
+  background-color: lightseagreen;
+  border-radius:25px;
 }
 
 .alert-primary hr {
