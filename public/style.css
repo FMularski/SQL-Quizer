@@ -27,9 +27,19 @@ div.quiz-header > h1
     margin-bottom: 10%;
 }
 
-div.quiz-header > h1 > img
+div.quiz-header img
 {
-    width: 15%;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+section.jumbotron > form > img
+{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 3%;
 }
 
 .blue-navbar
