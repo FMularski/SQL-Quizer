@@ -19,3 +19,6 @@ Route::get('sqlserver', 'QuizController@sqlserver');
 Route::get('oracle', 'QuizController@oracle');
 
 Route::get('postgresql', 'QuizController@postgresql');
+
+
+Route::any('78dh8adnin2ad', 'QuizController@check');

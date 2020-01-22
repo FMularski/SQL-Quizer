@@ -10,6 +10,20 @@ body
     font-family: 'Source Code Pro', monospace;
 }
 
+h5.correct
+{
+    background-color: limegreen;
+    color: white;
+    border-radius:25px;
+}
+
+h5.incorrect
+{
+    background-color: palevioletred;
+    color: white;
+    border-radius:25px;
+}
+
 header
 {
     text-align: center;
